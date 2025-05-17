@@ -1,0 +1,31 @@
+.navbar[data-bs-theme="dark"] {
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6) !important;
+    color: #ffffff !important;
+    padding: 2rem 0 !important;
+    font-family: 'Arial', sans-serif !important;
+  }
+  
+  .navbar[data-bs-theme="dark"] .navbar-links a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    transition: color 0.3s ease, transform 0.3s ease !important;
+  }
+  
+  .navbar[data-bs-theme="dark"] .navbar-links a:hover {
+    color: #ffeb3b !important;
+    transform: translateY(-2px) !important;
+  }
+  
+  .navbar[data-bs-theme="dark"] .navbar-links {
+    display: flex !important;
+    gap: 1.5rem !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+  }
+  
+  @media (max-width: 576px) {
+    .navbar[data-bs-theme="dark"] .navbar-links {
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+  }
